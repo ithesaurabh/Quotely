@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32386802327",
+    "project_id": "quotely-553a6",
+    "storage_bucket": "quotely-553a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32386802327:android:440cc28b33cc0dee1f3fd2",
+        "android_client_info": {
+          "package_name": "com.example.quotely"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKiwG2j6jf3R9lFC5EfsMM-Sqj9WTAVP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="#7CB3C1"
+        android:dividerPadding="3dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10sp"
+        android:paddingEnd="10sp"
+        android:paddingRight="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="634dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner_button"
+            android:paddingLeft="3sp"
+            android:maxLength="10"
+            android:text="TextView"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingTop="3sp"
+            android:paddingBottom="3sp"
+            app:srcCompat="@drawable/close" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
